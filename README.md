@@ -192,11 +192,12 @@ Disable syntax highlighting for better performance on files >5000 lines.
 Project Structure
 
 <text>
-
+```
 code_splitter/
 ├── code_splitter.py    # Main application
 ├── splitter.settings   # User settings (auto-generated)
 └── README.md           # This file
+```
 </text>
 
 Dependencies
