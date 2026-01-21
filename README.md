@@ -94,6 +94,7 @@ Ctrl+Shift+E	Export all parts
 F5	Reload current file
 Split Mode Details
 Token Mode (Default)
+
 Best for LLM context limits. Uses a conservative approximation that slightly overestimates to prevent overflow.
 
 ## Recommended limits:
@@ -116,7 +117,7 @@ Enable Remove 3+ Comment Lines to automatically strip blocks of consecutive comm
 Before:
 
 Python
-
+```
 # ============================================
 # This is a header comment block
 # Author: John Doe
@@ -132,8 +133,7 @@ def my_function():
     pass
 Configuration
 Settings are stored in splitter.settings:
-
-ini
+```
 
 # Python Code Splitter Settings
 max_tokens=8000
@@ -160,7 +160,7 @@ Text (.txt)
 Includes header with metadata:
 
 text
-
+```
 ======================================================================
   Exported from Python Code Splitter
   Original file: my_script.py
@@ -169,7 +169,7 @@ text
 
 def my_function():
     ...
-
+```
 This tends to slightly overestimate, providing safety margin for different tokenizers.
 
 Troubleshooting
