@@ -220,8 +220,9 @@ Submit a pull request
 MIT License - See LICENSE file for details.
 
 ### Acknowledgments
-Built with Python and Tkinter
-AST module for intelligent code parsing
-Inspired by the need to share code with LLMs efficiently
-Made with ❤️ for developers who paste code into AI assistants
+- Built with Python and Tkinter
+- AST module for intelligent code parsing
+- Inspired by the need to share code with LLMs efficiently
+- Made with ❤️ for developers who paste code into AI assistants
+=====
 
