@@ -144,15 +144,19 @@ target_ratio=0.88
 split_mode=tokens
 remove_comments=False
 syntax_highlight=True
-Settings Description
+
+    Settings Description
+</code>
 Setting	Default	Description
-max_tokens	8000	Maximum tokens per part (token mode)
-max_lines	200	Maximum lines per part (line mode)
-num_parts	5	Target number of parts (parts mode)
-target_ratio	0.88	Headroom ratio for token mode (0.88 = 88% of max)
-split_mode	tokens	Default split mode
-remove_comments	False	Auto-remove comment blocks
-syntax_highlight	True	Enable syntax highlighting
+
+max_tokens	| 8000	| Maximum tokens per part (token mode)
+max_lines	|200	| Maximum lines per part (line mode)
+num_parts	|5	|Target number of parts (parts mode)
+target_ratio	|0.88	| Headroom ratio for token mode (0.88 = 88% of max)
+split_mode	|tokens	| Default split mode
+remove_comments	|False	| Auto-remove comment blocks
+syntax_highlight	|True	| Enable syntax highlighting
+
 Export Formats
 Python (.py)
 Raw Python code, ready to paste or execute.
@@ -160,7 +164,6 @@ Raw Python code, ready to paste or execute.
 Text (.txt)
 Includes header with metadata:
 
-</code>
 
 ```
 ======================================================================
