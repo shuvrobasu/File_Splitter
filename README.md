@@ -161,6 +161,7 @@ Text (.txt)
 Includes header with metadata:
 
 </code>
+
 ```
 ======================================================================
   Exported from Python Code Splitter
@@ -171,6 +172,7 @@ Includes header with metadata:
 def my_function():
     ...
 ```
+
 This tends to slightly overestimate, providing safety margin for different tokenizers.
 
 Troubleshooting
