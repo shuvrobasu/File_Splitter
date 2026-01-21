@@ -136,6 +136,7 @@ Settings are stored in splitter.settings:
 ```
 
 # Python Code Splitter Settings
+<code>
 max_tokens=8000
 max_lines=200
 num_parts=5
@@ -159,7 +160,7 @@ Raw Python code, ready to paste or execute.
 Text (.txt)
 Includes header with metadata:
 
-text
+</code>
 ```
 ======================================================================
   Exported from Python Code Splitter
