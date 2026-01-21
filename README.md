@@ -149,13 +149,13 @@ syntax_highlight=True
 </code>
 Setting	Default	Description
 
-max_tokens	| 8000	| Maximum tokens per part (token mode)
-max_lines	|200	| Maximum lines per part (line mode)
-num_parts	|5	|Target number of parts (parts mode)
-target_ratio	|0.88	| Headroom ratio for token mode (0.88 = 88% of max)
-split_mode	|tokens	| Default split mode
-remove_comments	|False	| Auto-remove comment blocks
-syntax_highlight	|True	| Enable syntax highlighting
+max_tokens	| 8000	| Maximum tokens per part (token mode)<p>
+max_lines	|200	| Maximum lines per part (line mode)<p>
+num_parts	|5	|Target number of parts (parts mode)<p>
+target_ratio	|0.88	| Headroom ratio for token mode (0.88 = 88% of max)<p>
+split_mode	|tokens	| Default split mode<p>
+remove_comments	|False	| Auto-remove comment blocks<p>
+syntax_highlight	|True	| Enable syntax highlighting<p>
 
 Export Formats
 Python (.py)
@@ -180,6 +180,44 @@ This tends to slightly overestimate, providing safety margin for different token
 
 Troubleshooting
 
-Raise it via Github
+Emojis not showing in color
+This is a Tkinter limitation on some systems. Functionality is unaffected.
 
+File won't parse
+Ensure the file has valid Python syntax. The AST parser will show an error for syntax issues.
+
+Large files are slow
+Disable syntax highlighting for better performance on files >5000 lines.
+
+Project Structure
+
+<text>
+
+code_splitter/
+├── code_splitter.py    # Main application
+├── splitter.settings   # User settings (auto-generated)
+└── README.md           # This file
+</text>
+
+Dependencies
+Standard Library Only - No external packages required!
+
+tkinter - GUI framework
+ast - Python code parsing
+re - Regular expressions
+pathlib - File path handling
+dataclasses - Data structures
+Contributing
+Fork the repository
+Create a feature branch
+Make your changes
+Submit a pull request
+License
+MIT License - See LICENSE file for details.
+
+Acknowledgments
+Built with Python and Tkinter
+AST module for intelligent code parsing
+Inspired by the need to share code with LLMs efficiently
+Made with ❤️ for developers who paste code into AI assistants
 
