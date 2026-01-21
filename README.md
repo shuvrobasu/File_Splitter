@@ -191,32 +191,35 @@ Disable syntax highlighting for better performance on files >5000 lines.
 
 Project Structure
 
-<text>
+
 ```
 code_splitter/
 ├── code_splitter.py    # Main application
 ├── splitter.settings   # User settings (auto-generated)
 └── README.md           # This file
 ```
-</text>
+
 
 Dependencies
 Standard Library Only - No external packages required!
-
+```
 tkinter - GUI framework
 ast - Python code parsing
 re - Regular expressions
 pathlib - File path handling
 dataclasses - Data structures
-Contributing
+```
+### Contributing
 Fork the repository
-Create a feature branch
+
+### Create a feature branch
 Make your changes
 Submit a pull request
-License
+
+## License
 MIT License - See LICENSE file for details.
 
-Acknowledgments
+### Acknowledgments
 Built with Python and Tkinter
 AST module for intelligent code parsing
 Inspired by the need to share code with LLMs efficiently
