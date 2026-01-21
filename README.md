@@ -59,8 +59,10 @@ sudo pacman -S tk
 ###
 
 python code_splitter.py
+```
 
 Usage
+
 Basic Workflow
 Open a Python file
 
@@ -94,9 +96,7 @@ Split Mode Details
 Token Mode (Default)
 Best for LLM context limits. Uses a conservative approximation that slightly overestimates to prevent overflow.
 
-text
-
-Recommended limits:
+## Recommended limits:
 - GPT-3.5: 4000 tokens
 - GPT-4: 8000 tokens
 - Claude: 8000-10000 tokens
